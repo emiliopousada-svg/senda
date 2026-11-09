@@ -1,0 +1,432 @@
+[
+  {
+    "id": 1,
+    "slug": "saint-jean-roncesvalles",
+    "numero": 1,
+    "titulo": "Saint-Jean-Pied-de-Port → Roncesvalles",
+    "origen": "Saint-Jean-Pied-de-Port",
+    "destino": "Roncesvalles",
+    "distanciaKm": 25.1,
+    "desnivelPositivoM": 1250,
+    "desnivelNegativoM": 480,
+    "altitudMaxM": 1420,
+    "altitudMinM": 165,
+    "puntoCulminante": "Collado Lepoeder",
+    "tiempoEstimado": "7h 30m",
+    "dificultad": "Alta",
+    "dificultadBadgeColor": "text-error bg-error/15 border-error/30",
+    "ciclabilidad": "40%",
+    "tamanioOfflineMB": 185,
+    "descripcion": "La etapa reina pirenaica. Cruce de los Pirineos por la histórica Ruta de Napoleón a través de densos hayedos, pastizales de altura y collados con vistas panorámicas sobrecogedoras.",
+    "meteo": {
+      "temperatura": "11°C",
+      "sensacion": "8°C",
+      "viento": "35 km/h NNO",
+      "condicion": "Viento y niebla en collado",
+      "icono": "air"
+    },
+    "terreno": {
+      "senderoRocoso": 45,
+      "pistaForestal": 35,
+      "asfalto": 20
+    },
+    "elevationProfile": [
+      { "km": 0, "alt": 165, "nombre": "Saint-Jean" },
+      { "km": 5, "alt": 480, "nombre": "Honto" },
+      { "km": 8, "alt": 790, "nombre": "Refugio Orisson" },
+      { "km": 11, "alt": 1090, "nombre": "Virgen de Biakorri" },
+      { "km": 18.2, "alt": 1280, "nombre": "Refugio Izandorre" },
+      { "km": 20.5, "alt": 1420, "nombre": "Collado Lepoeder (CIMA)" },
+      { "km": 23.5, "alt": 1057, "nombre": "Puerto de Ibañeta" },
+      { "km": 25.1, "alt": 950, "nombre": "Roncesvalles" }
+    ],
+    "hitos": [
+      { "nombre": "Honto", "km": 5.0, "alt": "480 m", "tipo": "aldea", "icono": "home" },
+      { "nombre": "Refugio Orisson", "km": 8.0, "alt": "790 m", "tipo": "refugio", "icono": "night_shelter" },
+      { "nombre": "Virgen de Biakorri", "km": 11.2, "alt": "1.090 m", "tipo": "monumento", "icono": "church" },
+      { "nombre": "Refugio Izandorre (SOS 112)", "km": 18.2, "alt": "1.280 m", "tipo": "emergencia", "icono": "emergency" },
+      { "nombre": "Collado Lepoeder", "km": 20.5, "alt": "1.420 m", "tipo": "cima", "icono": "landscape" },
+      { "nombre": "Capilla de San Salvador (Ibañeta)", "km": 23.5, "alt": "1.057 m", "tipo": "patrimonio", "icono": "notifications" }
+    ],
+    "albergues": [
+      {
+        "id": "ronc-1",
+        "nombre": "Albergue de Peregrinos de Roncesvalles",
+        "tipo": "Municipal / Parroquial",
+        "plazas": 110,
+        "plazasLibres": 34,
+        "precio": "14 €",
+        "telefono": "+34 948 760 000",
+        "servicios": ["WiFi", "Enchufe individual", "Taquillas", "Lavandería", "Comedor", "Calefacción"],
+        "puntuacion": 4.8,
+        "icono": "night_shelter"
+      },
+      {
+        "id": "ronc-2",
+        "nombre": "Refugio Posada de Roncesvalles",
+        "tipo": "Privado",
+        "plazas": 18,
+        "plazasLibres": 4,
+        "precio": "19 €",
+        "telefono": "+34 948 760 012",
+        "servicios": ["Desayuno incluido", "Baño en habitación", "Calefacción", "WiFi"],
+        "puntuacion": 4.6,
+        "icono": "hotel"
+      },
+      {
+        "id": "ronc-3",
+        "nombre": "Albergue La Posada Nueva",
+        "tipo": "Privado",
+        "plazas": 24,
+        "plazasLibres": 8,
+        "precio": "16 €",
+        "telefono": "+34 948 760 055",
+        "servicios": ["Cena comunitaria", "Guarda-bicis", "WiFi", "Jardín"],
+        "puntuacion": 4.7,
+        "icono": "cabin"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "roncesvalles-zubiri",
+    "numero": 2,
+    "titulo": "Roncesvalles → Zubiri",
+    "origen": "Roncesvalles",
+    "destino": "Zubiri",
+    "distanciaKm": 21.5,
+    "desnivelPositivoM": 280,
+    "desnivelNegativoM": 720,
+    "altitudMaxM": 950,
+    "altitudMinM": 520,
+    "puntoCulminante": "Alto de Mezkiritz / Alto de Erro",
+    "tiempoEstimado": "5h 30m",
+    "dificultad": "Media",
+    "dificultadBadgeColor": "text-secondary bg-secondary/15 border-secondary/30",
+    "ciclabilidad": "80%",
+    "tamanioOfflineMB": 142,
+    "descripcion": "Descenso gradual por los valles de Erro y Esteribar. Senderos sombríos entre robledales y hayedos, cruzando pequeños pueblos jacobeos de arquitectura tradicional navarra hasta llegar al legendario Puente de la Rabia.",
+    "meteo": {
+      "temperatura": "16°C",
+      "sensacion": "16°C",
+      "viento": "12 km/h N",
+      "condicion": "Parcialmente soleado",
+      "icono": "partly_cloudy_day"
+    },
+    "terreno": {
+      "senderoRocoso": 25,
+      "pistaForestal": 60,
+      "asfalto": 15
+    },
+    "elevationProfile": [
+      { "km": 0, "alt": 950, "nombre": "Roncesvalles" },
+      { "km": 2.8, "alt": 890, "nombre": "Burguete" },
+      { "km": 6.5, "alt": 875, "nombre": "Espinal" },
+      { "km": 8.2, "alt": 922, "nombre": "Alto de Mezkiritz" },
+      { "km": 13.5, "alt": 780, "nombre": "Lintzoain" },
+      { "km": 17.5, "alt": 801, "nombre": "Alto de Erro" },
+      { "km": 21.5, "alt": 520, "nombre": "Zubiri (Puente de la Rabia)" }
+    ],
+    "hitos": [
+      { "nombre": "Auritz / Burguete", "km": 2.8, "alt": "890 m", "tipo": "pueblo", "icono": "location_city" },
+      { "nombre": "Espinal / Aurizberri", "km": 6.5, "alt": "875 m", "tipo": "aldea", "icono": "home" },
+      { "nombre": "Alto de Mezkiritz (Estepa)", "km": 8.2, "alt": "922 m", "tipo": "cima", "icono": "landscape" },
+      { "nombre": "Alto de Erro", "km": 17.5, "alt": "801 m", "tipo": "cima", "icono": "terrain" },
+      { "nombre": "Puente de la Rabia (Zubiri)", "km": 21.5, "alt": "520 m", "tipo": "puente", "icono": "bridge" }
+    ],
+    "albergues": [
+      {
+        "id": "zub-1",
+        "nombre": "Albergue Municipal de Zubiri",
+        "tipo": "Municipal",
+        "plazas": 44,
+        "plazasLibres": 15,
+        "precio": "12 €",
+        "telefono": "+34 948 420 110",
+        "servicios": ["WiFi", "Cocina comunitaria", "Jardín al río", "Lavadora"],
+        "puntuacion": 4.5,
+        "icono": "night_shelter"
+      },
+      {
+        "id": "zub-2",
+        "nombre": "Albergue Zaldiko",
+        "tipo": "Privado",
+        "plazas": 22,
+        "plazasLibres": 6,
+        "precio": "15 €",
+        "telefono": "+34 689 332 101",
+        "servicios": ["Masaje podal", "Bar & Tapas", "Enchufes", "Taquillas"],
+        "puntuacion": 4.8,
+        "icono": "hotel"
+      },
+      {
+        "id": "zub-3",
+        "nombre": "Albergue El Palo de Avellano",
+        "tipo": "Privado",
+        "plazas": 16,
+        "plazasLibres": 2,
+        "precio": "20 €",
+        "telefono": "+34 948 420 225",
+        "servicios": ["Menú peregrino casero", "Habitaciones semi-privadas", "Terraza", "WiFi"],
+        "puntuacion": 4.9,
+        "icono": "cabin"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "zubiri-pamplona",
+    "numero": 3,
+    "titulo": "Zubiri → Pamplona / Iruña",
+    "origen": "Zubiri",
+    "destino": "Pamplona",
+    "distanciaKm": 20.4,
+    "desnivelPositivoM": 210,
+    "desnivelNegativoM": 310,
+    "altitudMaxM": 530,
+    "altitudMinM": 430,
+    "puntoCulminante": "Paso de Arleta / Murallas",
+    "tiempoEstimado": "5h 00m",
+    "dificultad": "Baja-Media",
+    "dificultadBadgeColor": "text-primary bg-primary/15 border-primary/30",
+    "ciclabilidad": "95%",
+    "tamanioOfflineMB": 160,
+    "descripcion": "Ruta agradable y tendida a la vera del río Arga. Se suceden viejos puentes medievales, molinos y merenderos fluviales antes de penetrar por el Portal de Francia en el recinto amurallado de Pamplona.",
+    "meteo": {
+      "temperatura": "19°C",
+      "sensacion": "19°C",
+      "viento": "8 km/h O",
+      "condicion": "Soleado y despejado",
+      "icono": "wb_sunny"
+    },
+    "terreno": {
+      "senderoRocoso": 15,
+      "pistaForestal": 55,
+      "asfalto": 30
+    },
+    "elevationProfile": [
+      { "km": 0, "alt": 520, "nombre": "Zubiri" },
+      { "km": 5.5, "alt": 500, "nombre": "Larrasoaña" },
+      { "km": 9.3, "alt": 490, "nombre": "Zuriáin" },
+      { "km": 15.8, "alt": 460, "nombre": "Trinidad de Arre" },
+      { "km": 19.5, "alt": 445, "nombre": "Puente de la Magdalena" },
+      { "km": 20.4, "alt": 450, "nombre": "Pamplona (Casco Antiguo)" }
+    ],
+    "hitos": [
+      { "nombre": "Larrasoaña", "km": 5.5, "alt": "500 m", "tipo": "pueblo", "icono": "location_city" },
+      { "nombre": "Zuriáin", "km": 9.3, "alt": "490 m", "tipo": "aldea", "icono": "home" },
+      { "nombre": "Basílica de Trinidad de Arre", "km": 15.8, "alt": "460 m", "tipo": "patrimonio", "icono": "church" },
+      { "nombre": "Puente de la Magdalena", "km": 19.5, "alt": "445 m", "tipo": "puente", "icono": "bridge" },
+      { "nombre": "Portal de Francia (Pamplona)", "km": 20.4, "alt": "450 m", "tipo": "monumento", "icono": "fort" }
+    ],
+    "albergues": [
+      {
+        "id": "pam-1",
+        "nombre": "Albergue Jesús y María",
+        "tipo": "Municipal",
+        "plazas": 114,
+        "plazasLibres": 42,
+        "precio": "11 €",
+        "telefono": "+34 948 222 644",
+        "servicios": ["Centro histórico", "Calefacción", "Cocina equipada", "WiFi", "Taquillas"],
+        "puntuacion": 4.6,
+        "icono": "night_shelter"
+      },
+      {
+        "id": "pam-2",
+        "nombre": "Albergue Casa Paderborn",
+        "tipo": "Parroquial",
+        "plazas": 26,
+        "plazasLibres": 5,
+        "precio": "10 €",
+        "telefono": "+34 948 148 425",
+        "servicios": ["Junto al río Arga", "Hospitaleros voluntarios", "Desayuno donativo", "Jardín"],
+        "puntuacion": 4.9,
+        "icono": "home"
+      },
+      {
+        "id": "pam-3",
+        "nombre": "Albergue Plaza Catedral",
+        "tipo": "Privado",
+        "plazas": 35,
+        "plazasLibres": 12,
+        "precio": "18 €",
+        "telefono": "+34 948 211 988",
+        "servicios": ["Vistas a la Catedral", "Enchufe individual", "Climatización", "Cocina"],
+        "puntuacion": 4.7,
+        "icono": "hotel"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "pamplona-puente-la-reina",
+    "numero": 4,
+    "titulo": "Pamplona → Puente la Reina / Gares",
+    "origen": "Pamplona",
+    "destino": "Puente la Reina",
+    "distanciaKm": 24.0,
+    "desnivelPositivoM": 440,
+    "desnivelNegativoM": 530,
+    "altitudMaxM": 770,
+    "altitudMinM": 350,
+    "puntoCulminante": "Alto del Perdón (770m)",
+    "tiempoEstimado": "6h 00m",
+    "dificultad": "Media",
+    "dificultadBadgeColor": "text-secondary bg-secondary/15 border-secondary/30",
+    "ciclabilidad": "65%",
+    "tamanioOfflineMB": 175,
+    "descripcion": "Emblemática etapa que supera la Sierra del Perdón. En la cumbre se alza la famosa escultura metálica de los peregrinos con el lema 'Donde se cruza el camino del viento con el de las estrellas'. Fuerte bajada por calzada pedregosa.",
+    "meteo": {
+      "temperatura": "17°C",
+      "sensacion": "14°C",
+      "viento": "40 km/h ONO",
+      "condicion": "Viento fuerte en cresta",
+      "icono": "air"
+    },
+    "terreno": {
+      "senderoRocoso": 35,
+      "pistaForestal": 45,
+      "asfalto": 20
+    },
+    "elevationProfile": [
+      { "km": 0, "alt": 450, "nombre": "Pamplona" },
+      { "km": 5.0, "alt": 435, "nombre": "Cizur Menor" },
+      { "km": 10.8, "alt": 605, "nombre": "Zariquiegui" },
+      { "km": 13.2, "alt": 770, "nombre": "Alto del Perdón (CIMA)" },
+      { "km": 16.8, "alt": 490, "nombre": "Uterga" },
+      { "km": 19.5, "alt": 440, "nombre": "Muruzábal" },
+      { "km": 24.0, "alt": 350, "nombre": "Puente la Reina" }
+    ],
+    "hitos": [
+      { "nombre": "Cizur Menor (San Miguel)", "km": 5.0, "alt": "435 m", "tipo": "iglesia", "icono": "church" },
+      { "nombre": "Zariquiegui (Fuente de la Teja)", "km": 10.8, "alt": "605 m", "tipo": "fuente", "icono": "water_drop" },
+      { "nombre": "Monumento al Peregrino (Alto del Perdón)", "km": 13.2, "alt": "770 m", "tipo": "monumento", "icono": "flag" },
+      { "nombre": "Uterga", "km": 16.8, "alt": "490 m", "tipo": "pueblo", "icono": "location_city" },
+      { "nombre": "Puente Románico de los 6 Arcos", "km": 24.0, "alt": "350 m", "tipo": "puente", "icono": "bridge" }
+    ],
+    "albergues": [
+      {
+        "id": "plr-1",
+        "nombre": "Albergue Padres Reparadores",
+        "tipo": "Religioso",
+        "plazas": 80,
+        "plazasLibres": 28,
+        "precio": "10 €",
+        "telefono": "+34 948 340 050",
+        "servicios": ["Claustro ajardinado", "Comedor", "Lavadora", "Misa del peregrino"],
+        "puntuacion": 4.6,
+        "icono": "night_shelter"
+      },
+      {
+        "id": "plr-2",
+        "nombre": "Albergue Jakue",
+        "tipo": "Privado",
+        "plazas": 60,
+        "plazasLibres": 19,
+        "precio": "14 €",
+        "telefono": "+34 948 341 017",
+        "servicios": ["Restaurante propio", "Terraza chill-out", "Piscina", "WiFi"],
+        "puntuacion": 4.7,
+        "icono": "hotel"
+      },
+      {
+        "id": "plr-3",
+        "nombre": "Albergue Estrella Guía",
+        "tipo": "Privado",
+        "plazas": 20,
+        "plazasLibres": 6,
+        "precio": "17 €",
+        "telefono": "+34 622 841 900",
+        "servicios": ["Desayuno artesano incluido", "Enchufes individuales", "Aire acondicionado"],
+        "puntuacion": 4.9,
+        "icono": "cabin"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "puente-la-reina-estella",
+    "numero": 5,
+    "titulo": "Puente la Reina → Estella / Lizarra",
+    "origen": "Puente la Reina",
+    "destino": "Estella",
+    "distanciaKm": 22.2,
+    "desnivelPositivoM": 410,
+    "desnivelNegativoM": 350,
+    "altitudMaxM": 500,
+    "altitudMinM": 380,
+    "puntoCulminante": "Cirauqui (Calzada Romana)",
+    "tiempoEstimado": "5h 30m",
+    "dificultad": "Media",
+    "dificultadBadgeColor": "text-secondary bg-secondary/15 border-secondary/30",
+    "ciclabilidad": "75%",
+    "tamanioOfflineMB": 155,
+    "descripcion": "Tierra de campos ondulados, olivos centenarios y viñedos de Tierra Estella. El itinerario asciende al imponente caserío medieval de Cirauqui pisando auténticas calzadas y puentes de factura romana antes de arribar a la monumental Estella.",
+    "meteo": {
+      "temperatura": "21°C",
+      "sensacion": "21°C",
+      "viento": "10 km/h S",
+      "condicion": "Soleado y despejado",
+      "icono": "wb_sunny"
+    },
+    "terreno": {
+      "senderoRocoso": 30,
+      "pistaForestal": 55,
+      "asfalto": 15
+    },
+    "elevationProfile": [
+      { "km": 0, "alt": 350, "nombre": "Puente la Reina" },
+      { "km": 5.2, "alt": 460, "nombre": "Mañeru" },
+      { "km": 8.0, "alt": 490, "nombre": "Cirauqui" },
+      { "km": 13.5, "alt": 465, "nombre": "Lorca" },
+      { "km": 18.0, "alt": 430, "nombre": "Villatuerta" },
+      { "km": 22.2, "alt": 420, "nombre": "Estella / Lizarra" }
+    ],
+    "hitos": [
+      { "nombre": "Mañeru (Plaza Mayor)", "km": 5.2, "alt": "460 m", "tipo": "aldea", "icono": "location_city" },
+      { "nombre": "Cirauqui y Calzada Romana", "km": 8.0, "alt": "490 m", "tipo": "patrimonio", "icono": "fort" },
+      { "nombre": "Puente Romano de Cirauqui", "km": 9.2, "alt": "450 m", "tipo": "puente", "icono": "bridge" },
+      { "nombre": "Villatuerta (Puente Románico río Iranzu)", "km": 18.0, "alt": "430 m", "tipo": "puente", "icono": "church" },
+      { "nombre": "Palacio de los Reyes de Navarra (Estella)", "km": 22.2, "alt": "420 m", "tipo": "monumento", "icono": "castle" }
+    ],
+    "albergues": [
+      {
+        "id": "est-1",
+        "nombre": "Albergue Municipal de Estella",
+        "tipo": "Municipal",
+        "plazas": 96,
+        "plazasLibres": 31,
+        "precio": "10 €",
+        "telefono": "+34 948 554 542",
+        "servicios": ["Junto al río Ega", "Cocina comunitaria", "Taquillas", "WiFi", "Patio"],
+        "puntuacion": 4.5,
+        "icono": "night_shelter"
+      },
+      {
+        "id": "est-2",
+        "nombre": "Albergue Curtidores",
+        "tipo": "Privado",
+        "plazas": 38,
+        "plazasLibres": 11,
+        "precio": "15 €",
+        "telefono": "+34 948 550 051",
+        "servicios": ["Edificio histórico rehabilitado", "Terraza chill-out", "Bicicletas", "WiFi"],
+        "puntuacion": 4.8,
+        "icono": "hotel"
+      },
+      {
+        "id": "est-3",
+        "nombre": "Albergue Ágora",
+        "tipo": "Privado",
+        "plazas": 22,
+        "plazasLibres": 7,
+        "precio": "18 €",
+        "telefono": "+34 644 112 300",
+        "servicios": ["Cortinas de privacidad", "Luz y enchufe por cama", "Cafetería propia"],
+        "puntuacion": 4.9,
+        "icono": "cabin"
+      }
+    ]
+  }
+]

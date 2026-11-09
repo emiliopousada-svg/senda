@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8c7b24a4828c56519e014da963d908db {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8c7b24a4828c56519e014da963d908db" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8c7b24a4828c56519e014da963d908db = L.map(
+                "map_8c7b24a4828c56519e014da963d908db",
+                {
+                    center: [41.5, -4.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+                var lat_lng_popup_d10a9c7d14263d20d22bb202664d4ff1 = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_d10a9c7d14263d20d22bb202664d4ff1
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_8c7b24a4828c56519e014da963d908db);
+                    }
+                map_8c7b24a4828c56519e014da963d908db.on('click', latLngPop);
+            
+    
+            var poly_line_33b09859cf07eec7ca4568dea1dd61c0 = L.polyline(
+                [[43.1636, -1.2358], [42.5641, -2.4451], [42.3439, -3.6969], [42.5987, -5.567], [42.7762, -7.2144], [42.8805, -8.5456]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_8c7b24a4828c56519e014da963d908db);
+        
+    
+            poly_line_33b09859cf07eec7ca4568dea1dd61c0.bindTooltip(
+                `<div>
+                     Camino Francés (Rojo)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ba4f6b24723c7dc5d3ca8e85e075d4b3 = L.polyline(
+                [[38.7167, -9.1333], [41.1579, -8.6291], [42.0461, -8.6444], [42.8805, -8.5456]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_8c7b24a4828c56519e014da963d908db);
+        
+    
+            poly_line_ba4f6b24723c7dc5d3ca8e85e075d4b3.bindTooltip(
+                `<div>
+                     Camino Portugués (Azul)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_57c011ca1bb8fdffd65c715b90383457 = L.polyline(
+                [[43.339, -1.7894], [43.263, -2.935], [43.4623, -3.8099], [43.5357, -5.6615], [42.8805, -8.5456]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_8c7b24a4828c56519e014da963d908db);
+        
+    
+            poly_line_57c011ca1bb8fdffd65c715b90383457.bindTooltip(
+                `<div>
+                     Camino del Norte (Verde)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8a096ee1683acc1fc319328e9e88001b = L.polyline(
+                [[43.3619, -5.8494], [43.0121, -7.5558], [42.8805, -8.5456]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_8c7b24a4828c56519e014da963d908db);
+        
+    
+            poly_line_8a096ee1683acc1fc319328e9e88001b.bindTooltip(
+                `<div>
+                     Camino Primitivo (Naranja)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_55bdbdafd9622e5c2a8caea5bd231520 = L.marker(
+                [42.8805, -8.5456],
+                {
+}
+            ).addTo(map_8c7b24a4828c56519e014da963d908db);
+        
+    
+            var icon_37a4f925c008e93ea629f2c654cf9c7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4c6234101e748e2daa11fc11a1a95e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f29bd40a0c7335e9d1294b75904d9f2c = $(`<div id="html_f29bd40a0c7335e9d1294b75904d9f2c" style="width: 100.0%; height: 100.0%;">Catedral de Santiago de Compostela</div>`)[0];
+                popup_e4c6234101e748e2daa11fc11a1a95e6.setContent(html_f29bd40a0c7335e9d1294b75904d9f2c);
+            
+        
+
+        marker_55bdbdafd9622e5c2a8caea5bd231520.bindPopup(popup_e4c6234101e748e2daa11fc11a1a95e6)
+        ;
+
+        
+    
+    
+                marker_55bdbdafd9622e5c2a8caea5bd231520.setIcon(icon_37a4f925c008e93ea629f2c654cf9c7f);
+            
+</script>
+</html>
