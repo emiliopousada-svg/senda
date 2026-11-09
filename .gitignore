@@ -29,3 +29,12 @@ Thumbs.db
 # Temporary files
 *.swp
 *.swo
+
+# Android build artifacts
+.gradle/
+build/
+android/.gradle/
+android/app/build/
+android/build/
+*.apk
+*.aab

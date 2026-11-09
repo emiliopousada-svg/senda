@@ -1,0 +1,8 @@
+{
+  "appId": "com.senda.tracker",
+  "appName": "Senda GPS",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
